@@ -141,7 +141,7 @@ body {
     rgb(255, 255, 255),
     rgba(255, 255, 255, 0) 100%
   );
-   /* border: 2px solid red;  */
+  /* border: 2px solid red;  */
 }
 .coding-text {
   width: 60%;
@@ -182,17 +182,113 @@ body {
   font-weight: 500;
   text-align: center;
 }
-.modern-section-container{
-    height: 200px;
-    display: flex;
+.modern-section-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  border-radius: 16px;
+  padding: 30px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  /* border: 2px solid red; */
+}
+
+/* inspiration-section*/
+.inspiration-section-container {
+  max-width: 1260px;
+  height: 500px;
+  /* border: 2px solid red; */
+  margin-top: 50px;
+}
+.inspiration-section {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  border: 2px solid purple;
+}
+.inspiration-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.inspiration-text h1 {
+  color: rgb(13, 19, 33);
+  font-size: 30px;
+  font-weight: 800;
+}
+.inspiration-text p {
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 20px 0;
+}
+.inspiration-video-container {
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.inspiration-video {
+  margin: 20px;
+}
+.inspiration-video iframe {
+  width: 80%;
+  height: 80%;
+  border-radius: 16px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* current-target-container" */
+.current-target-container {
+  max-width: 1260px;
+  height: 400px;
+  border: 2px solid red;
+  margin-top: 100px;
+}
+.current-target {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  border: 2px solid purple;
+}
+.current-text {
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid red;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.current-text h1 {
+  color: rgb(13, 19, 33);
+  font-size: 30px;
+  font-weight: 800;
+}
+.current-text p {
+  color: rgb(13, 19, 33);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 20px;
+}
+.skill {
+  /* display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
-    border-radius: 16px;
-    padding: 30px;
-    background: linear-gradient(
-      90deg,
-      rgb(255, 255, 255),
-      rgba(255, 255, 255, 0) 100%
-    );
-    /* border: 2px solid red; */
+    border: 2px solid olive; */
+}
+.html-section {
 }
