@@ -54,7 +54,7 @@ body {
 .banner-section-container {
   max-width: 1260px;
   height: 520px;
-  background-image: url(../assets/Hero-bg.png);
+  background-image: url(./assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -343,7 +343,7 @@ body {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
-    url(../assets/handshake.jpg);
+    url(./assets/handshake.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
