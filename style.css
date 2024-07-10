@@ -12,22 +12,23 @@ body {
   font-family: "Azeret Mono", monospace;
 }
 
-
- .web-text h1, .inspiration-text h1, .current-text h1 {
+.web-text h1,
+.inspiration-text h1,
+.current-text h1 {
   color: rgb(13, 19, 33);
   font-size: 30px;
   font-weight: 800;
   margin-bottom: 20px;
- }
-    .web-text p,.inspiration-text p,.current-text p  { 
-    font-size: 13px;
-    font-weight: 400;
-     line-height: 22px;
-    opacity: 0.7;
-    color: rgb(13, 19, 33);
-    }
-
-
+}
+.web-text p,
+.inspiration-text p,
+.current-text p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+}
 
 /* nav-section */
 .nav-section {
@@ -104,44 +105,26 @@ body {
 
 /* web-dev-section */
 .web-dev-section-container {
-  max-height: 1050px;
+  max-height: 1100px;
 }
 .web-dev-section {
   width: 90%;
-  margin: 42px auto;
+  margin: 0px auto;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
 }
 .web-dev {
   width: 85%;
-  margin: 40px auto;
+  margin: 0px auto;
+  padding: 30px;
 }
 .web-text {
   width: 80%;
-  margin: 0 auto 50px;
+  margin: 0 auto 40px;
   align-items: center;
   text-align: center;
-
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center; 
-  padding: 30px;*/
 }
-/* .web-text h1 {
-  color: rgb(13, 19, 33);
-  font-size: 30px;
-  font-weight: 800;
-  margin-bottom: 20px;
-} */
-/* .web-text p {
-  opacity: 0.7;
-  color: rgb(13, 19, 33);
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 22px;
-} */
+
 .coding-section-container {
   height: 230px;
   display: flex;
@@ -222,26 +205,8 @@ body {
   margin: 0 auto 30px;
   align-items: center;
   text-align: center;
-
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center; */
 }
-/* .inspiration-text h1 {
-  color: rgb(13, 19, 33);
-  font-size: 30px;
-  font-weight: 800;
-  margin-bottom: 20px;
-} */
-/* .inspiration-text p {
-  opacity: 0.7;
-  color: rgb(13, 19, 33);
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 22px;
-} */
+
 .inspiration-video {
   padding: 40px;
   border: 1px solid rgba(13, 19, 33, 0.2);
@@ -271,18 +236,6 @@ body {
   text-align: center;
   margin-bottom: 40px;
 }
-/* .current-text h1 {
-  color: rgb(13, 19, 33);
-  font-size: 30px;
-  font-weight: 800;
-  margin-bottom: 20px;
-} */
-/* .current-text p {
-  color: rgb(13, 19, 33);
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 22px;
-} */
 .skill {
   display: flex;
   justify-content: space-between;
